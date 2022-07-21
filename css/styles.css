@@ -1,0 +1,96 @@
+
+body{
+  font-family: sans-serif;
+}
+
+
+
+
+.menu_heading
+{
+  position:relative;
+  padding-top:20px;
+  padding-left:45%;
+
+}
+.row{
+  positon:relative;
+  margin-left:5%;
+  margin-right:5%;
+  background-color: red;
+  border-color: black;
+  width: 90%;
+
+
+}
+
+.row > div{
+    box-sizing:border-box;
+  background-color: grey;
+  margin-left:2.5%;
+  float:left;
+  border-style: solid;
+    border-width: 1px;
+}
+.inner_box1{
+  background-color: pink;
+  box-sizing: border-box;
+  position:relative;
+  float:right;
+  border-style: solid;
+  padding:2px 15px 2px 15px;
+    border-width: 1px;
+}
+.inner_box2{
+  background-color: red;
+  box-sizing: border-box;
+  position:relative;
+  float:right;
+  border-style: solid;
+  padding:2px 15px 2px 15px;
+  border-width: 1px;
+}
+.inner_box3{
+  background-color: yellow;
+  box-sizing: border-box;
+  position:relative;
+  float:right;
+  border-style: solid;
+  padding:2px 15px 2px 15px;
+    border-width: 1px;
+}
+
+.row>div>p
+{
+    box-sizing:border-box;
+    margin:40px 10px 10px 10px;
+}
+@media (min-width: 922px)
+{
+  .col-lg-4
+  {
+    width:30%;
+  }
+}
+@media (max-width:921px) AND (min-width: 722px)
+{
+  .col-md-6
+  {
+    width:43%;
+    margin-bottom:20px;
+
+  }
+  .col-md-12
+  {
+    width:89%
+  }
+}
+@media (max-width: 722px)
+{
+
+  .col-sm-12
+  {
+    width:89%;
+    margin-bottom:20px;
+  }
+}
