@@ -87,6 +87,10 @@ body{
 }
 @media (max-width: 722px)
 {
+  .menu_heading
+  {
+    padding-left: 38%;
+  }
 
   .col-sm-12
   {
